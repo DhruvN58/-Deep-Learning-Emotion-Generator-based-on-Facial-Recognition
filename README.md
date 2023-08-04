@@ -17,11 +17,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Download any additional resources, such as pre-trained models or datasets. It is also included in the project.
+   
+4. Download the dataset from the link below in order to obtain the train and test folders.
 
 ## Dataset
 
 Grayscale portraits of faces measuring 48 × 48 pixels make up the data. The faces have been automatically registered such that they are in the centre of each image and take up roughly the same amount of space.
 Each face must be assigned to one of seven categories, with 0 denoting anger, 1 disgust, 2 fear, 3 happiness, 4 sadness, 5 surprise, and 6 neutralities. The public test set has 3,589 cases, whereas the training set has 28,709 examples.
+
 Dataset link: https://www.kaggle.com/datasets/msambare/fer2013
 
 ## Model Architecture
