@@ -9,16 +9,17 @@ This repository contains the code and resources for a Deep Learning Emotion Gene
 To set up the Emotion Generator on your local machine, follow these steps:
 
 1. Clone the repository:
-
-2. Install the required dependencies. It is recommended to use a virtual environment:
+2. Its suggested to keep all the files in one folder 
+3. Download the data set from the kaggle link below and store it in the main folder with the name "data"
+4. Install python
+5. Run the below command in terminal or command prompt
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+import tesonerflow as tf
 ```
-
-3. Download any additional resources, such as pre-trained models or datasets. It is also included in the project.
-   
-4. Download the dataset from the link below in order to obtain the train and test folders.
+6. Run the below command in terminal or command prompt
+```bash
+import keras
+```
 
 ## Dataset
 
