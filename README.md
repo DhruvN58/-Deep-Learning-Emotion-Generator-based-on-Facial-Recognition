@@ -34,14 +34,14 @@ The emotion recognition model is built using a Convolutional Neural Network (CNN
 
 ## Running
 
-1.Run the main.py code after the installation.
-2.Recommended to train it on google collab.
-3.Uplaod the data file in google drive. link your g drive to the collab and unzip it in collab.
-4.Change the tranning, testing and model_save path in the code which is displayed once you unzip the file. If the code is not there copy paste the main.py code in a new row.
-5.Once trained fro 30 epoc download the model_file_30epochs.h5 file in the main folder.
-6.Make sure to make changes to the variables before running.
-7.Open in the code editor and run the testdata.py file in the repository for idetifying emostions in images.
-8.Open in the code editor and run the test.py file in the repository for idetifying emostions using the camera.
+1. Run the `main.py` code after installation.
+2. Recommended to train it on Google Colab.
+3. Upload the data file to Google Drive. Link your G Drive to the Colab and unzip it in Colab.
+4. Change the training, testing, and model_save paths in the code, which will be displayed once you unzip the file. If the code is not there, copy-paste the `main.py` code in a new row.
+5. Once trained, download the `model_file_30epochs.h5` file in the main folder.
+6. Make sure to make changes to the variables before running.
+7. Open the code editor and run the `testdata.py` file in the repository for identifying emotions in images.
+8. Open the code editor and run the `test.py` file in the repository for identifying emotions using the camera.
 
 ## Results
 
