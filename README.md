@@ -32,15 +32,16 @@ Dataset link: https://www.kaggle.com/datasets/msambare/fer2013
 
 The emotion recognition model is built using a Convolutional Neural Network (CNN). The CNN architecture consists of multiple convolutional layers followed by fully connected layers and uses appropriate activation functions and pooling layers to capture facial features effectively.
 
-## Training
+## Running
 
-To train the emotion recognition model on the FER-2013 dataset, run the training script in Python:
-
-```bash
-python train.py
-```
-
-The script will load the FER-2013 dataset, preprocess the images, and start the training process using the CNN model. You can adjust hyperparameters such as the learning rate, batch size, and number of epochs in the `train.py` file.
+1.Run the main.py code after the installation.
+2.Recommended to train it on google collab.
+3.Uplaod the data file in google drive. link your g drive to the collab and unzip it in collab.
+4.Change the tranning, testing and model_save path in the code which is displayed once you unzip the file. If the code is not there copy paste the main.py code in a new row.
+5.Once trained fro 30 epoc download the model_file_30epochs.h5 file in the main folder.
+6.Make sure to make changes to the variables before running.
+7.Open in the code editor and run the testdata.py file in the repository for idetifying emostions in images.
+8.Open in the code editor and run the test.py file in the repository for idetifying emostions using the camera.
 
 ## Results
 
